@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!--=============== Remixicons ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+
+    <!--=============== Skin Colors ===============-->
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+            
+            
+  
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+  
+          </div>
+  
+        </div>
+  
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+  
+      </nav>
+    </header>
+    <!--=============== Blog Details ===============-->
+    
+
+
+    
+    <!--=============== Blog ===============-->
+    <section class="blog section container" id="blog">
+        <h2 class="section__title">Latest Posts_</h2>
+        <div class="posts__container grid">
+          <a href="blog_details.html" class="post__card">
+            <img src="assets/img/blog-1.png" alt="" class="post__img">
+            <div class="post__content">
+              <p class="post__date text-xs">October 22, 2017</p>
+              <h3 class="post__title text-sm">How to use</h3>
+              <p class="post__description text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsum cum culpa necessitatibus, saepe hic quasi numquam, veritatis assumenda, neque a cumque voluptates quae accusamus consequuntur rerum officiis similique voluptatum.
+                
+              </p>
+  
+  
+            </div>
+          </a>
+          <a href="blog_details.html" class="post__card">
+            <img src="assets/img/blog-2.png" alt="" class="post__img">
+            <div class="post__content">
+              <p class="post__date text-xs">October 23, 2017</p>
+              <h3 class="post__title text-sm">How to use</h3>
+              <p class="post__description text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsum cum culpa necessitatibus, saepe hic quasi numquam, veritatis assumenda, neque a cumque voluptates quae accusamus consequuntur rerum officiis similique voluptatum.
+                
+              </p>
+  
+  
+            </div>
+          </a>
+          <a href="blog_details.html"  class="post__card">
+            <img src="assets/img/blog-3.png" alt="" class="post__img">
+            <div class="post__content">
+              <p class="post__date text-xs">October 23, 2017</p>
+              <h3 class="post__title text-sm">Cybersecurity</h3>
+              <p class="post__description text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsum cum culpa necessitatibus, saepe hic quasi numquam, veritatis assumenda, neque a cumque voluptates quae accusamus consequuntur rerum officiis similique voluptatum.
+                
+              </p>
+  
+  
+            </div>
+          </a>
+        </div>
+  
+      </section>
+
+    <!--=============== Contact ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+
+        <h2 class="section__title">Get in touch_</h2>
+        <div class="contact__container grid">
+
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Phone:</dt>
+              <dd>542656777</dd>
+              <dt>Skype:</dt>
+              <dd>ialim</dd>
+              <dt>Email:</dt>
+              <dd>i.alim0229@gmail.com</dd>
+
+              <ul class="contact__socials">
+                <li>
+                  <a href="" class="contact__social-link">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="contact__social-link">Linkedin</a>
+                </li>
+                <li>
+                  <a href="" class="contact__social-link">Github</a>
+                </li>
+                <li>
+                  <a href="" class="contact__social-link">Twitter</a>
+                </li>
+              </ul>
+
+            </dl>
+          </div>
+          <div class="contact__form">
+            <p class="contact__form-title">
+              Juste write me letter here_
+            </p>
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input type="text" name="name" placeholder="Your name" class="contact__input" id="contact-name">
+              </div>
+              <div class="contact__input-div">
+                <input type="email" name="email" placeholder="Your email" class="contact__input" id="contact-email">
+              </div>
+              <div class="contact__input-div">
+                <textarea name="message" placeholder="Type the message here" class="contact__input textarea" id="message" cols="30" rows="10"></textarea>
+              </div>
+              <p class="contact__message text-sm" id="contact-message">
+              </p>
+              <button class="button contact__button">
+                SEND
+              </button>
+            </form>
+            <p class="footer__copy">
+              &copy; 2023 alimIdrissou. All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--=============== Style Switcher ===============-->
+    <div class="style__switcher"></div>
+
+    <!--=============== Email Js ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== Js ===============-->
+    <script src="assets/js/common.js"></script>
+  </body>
+</html>
